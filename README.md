@@ -5,7 +5,7 @@ A modern, responsive **personal portfolio website** built using **React.js and V
 ---
 
 ## 🚀 Live Demo
-🔗 https://your-site-name.netlify.app
+🔗 https://deepashivale.netlify.app/
 
 ---
 
@@ -31,3 +31,14 @@ A modern, responsive **personal portfolio website** built using **React.js and V
 
 ## 📂 Project Structure
 
+├── public/
+├── src/
+│ ├── components/
+│ ├── assets/
+│ ├── pages/
+│ ├── App.jsx
+│ └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
