@@ -184,9 +184,9 @@ export const Hero: React.FC = () => {
           {/* Stats Cards - Clean Design */}
           <div className={`grid grid-cols-3 gap-4 transform transition-all duration-1000 delay-900 ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             {[
-              { value: '15+', label: 'AI Systems', icon: Brain, color: '#FFB5A7' },
-              { value: '70%', label: 'Efficiency', icon: Zap, color: '#E76F51' },
-              { value: '40%', label: 'Growth', icon: TrendingUp, color: '#F4A261' }
+              { value: '150+', label: 'Websites Built', icon: Globe, color: '#FFB5A7' },
+              { value: '90%', label: 'Efficiency', icon: Zap, color: '#E76F51' },
+              { value: '100%', label: 'Growth', icon: TrendingUp, color: '#F4A261' }
             ].map((stat, index) => (
               <div 
                 key={index} 
@@ -286,7 +286,7 @@ export const Hero: React.FC = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 z-20">
         <a href="#about" className="flex flex-col items-center gap-2 animate-bounce cursor-pointer group">
           <div className="w-12 h-12 rounded-full backdrop-blur-xl border-2 border-white/30 flex items-center justify-center text-white group-hover:scale-110 transition-all duration-300" style={{
             background: 'linear-gradient(135deg, rgba(255, 181, 167, 0.25) 0%, rgba(231, 111, 81, 0.25) 100%)'

@@ -231,25 +231,25 @@ export const Services: React.FC = () => {
   const sectionRef = useRef<HTMLElement>(null);
 
   const services = [
-    {
-      title: "AI-Native Development",
+    /*{
+      title: "Web Development",
       description: "Building intelligent applications with machine learning integration, natural language processing, and automated decision-making systems.",
       Icon: Brain,
-      features: ["ML Integration", "NLP", "Automation", "Smart APIs"],
+      features: ["ML Integration", "NLP", "Automation", "Rest APIs"],
       color: "#ff6b6b"
-    },
+    },*/
     {
-      title: "Full-Stack Engineering",
+      title: "Full-Stack Development",
       description: "End-to-end development from responsive frontends to scalable backend architectures with modern frameworks and cloud deployment.",
       Icon: Code2,
       features: ["React/Next.js", "Node.js", "Cloud Deploy", "APIs"],
       color: "#4ecdc4"
     },
     {
-      title: "Agentic Systems",
+      title: "Wordpress Development",
       description: "Designing autonomous agent architectures that can reason, plan, and execute complex tasks with minimal human intervention.",
       Icon: Cpu,
-      features: ["Agent Design", "Task Planning", "Reasoning", "Autonomy"],
+      features: ["Wordpress", "React/Next.js", "Custom Themes", "Plugins"],
       color: "#45b7d1"
     },
     {
@@ -320,9 +320,9 @@ export const Services: React.FC = () => {
           {/* Subtitle with Typewriter Effect */}
           <div className="relative">
             <p className="text-gray-300 text-lg md:text-xl text-center max-w-2xl">
-              Engineering the future with{' '}
+              Crafting modern web experiences {' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 font-semibold">
-                AI-Native Solutions
+                that drive results
               </span>
             </p>
             <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-0.5 bg-gradient-to-r from-transparent via-purple-400 to-transparent animate-pulse" />

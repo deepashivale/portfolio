@@ -26,16 +26,7 @@ const projects: Project[] = [
     githubUrl: "https://github.com/Darkcoder011/TasteVibe-Restaurant-Recommender",
     liveUrl: "https://taste-vibe-restaurant-recommender.vercel.app/"
   },
-  {
-    title: "AutoApply AI - Job Automation",
-    category: "AI Platform",
-    description: "A modern, intelligent job application automation platform built with React, TypeScript, and Supabase. Streamline your job search with AI-powered automation and comprehensive tracking.",
-    technologies: ["React", "TypeScript", "Supabase", "AI Automation"],
-    impact: "Auto-Apply",
-    icon: Briefcase,
-    color: "#E76F51",
-    liveUrl: "https://hirehutr.netlify.app/"
-  },
+  
   {
     title: "Lunexa Company Website",
     category: "Full-Stack",
@@ -120,7 +111,7 @@ export const Projects: React.FC = () => {
           </h2>
           
           <p className="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto">
-            Real-world AI systems delivering{' '}
+          Real-world web apps delivers {' '}
             <span className="text-white font-bold">measurable impact</span> and{' '}
             <span className="text-white font-bold">business value</span>
           </p>

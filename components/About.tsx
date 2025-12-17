@@ -104,7 +104,7 @@ export const About: React.FC = () => {
                 <p className="text-gray-300 text-sm mb-4">Full-Stack & system Architect</p>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="p-3 rounded-xl backdrop-blur-sm border border-white/10">
-                    <div className="text-3xl font-bold text-white">15+</div>
+                    <div className="text-3xl font-bold text-white">150+</div>
                     <div className="text-xs text-gray-300">Websites Built</div>
                   </div>
                   <div className="p-3 rounded-xl backdrop-blur-sm border border-white/10">
@@ -155,7 +155,7 @@ export const About: React.FC = () => {
                     <TrendingUp className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-white">70%</div>
+                    <div className="text-2xl font-bold text-white">80%</div>
                     <div className="text-sm text-gray-300">Growth at Affinity</div>
                   </div>
                 </div>
@@ -172,7 +172,7 @@ export const About: React.FC = () => {
                     <Globe className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <div className="text-2xl font-bold text-white">15+</div>
+                    <div className="text-2xl font-bold text-white">150+</div>
                     <div className="text-sm text-gray-300">Web Applications</div>
                   </div>
                 </div>
@@ -222,7 +222,8 @@ export const About: React.FC = () => {
                 <div className="flex items-center gap-3 px-6 py-3 rounded-2xl backdrop-blur-sm border border-white/20 hover:scale-105 transition-transform duration-200 cursor-pointer" style={{
                   background: 'linear-gradient(135deg, #FFB5A7 0%, #E76F51 100%)'
                 }}>
-                  <span className="text-white font-semibold">Let's Connect</span>
+                  <span className="text-white font-semibold"><a 
+              href="#contact"> Let's Connect</a></span>
                   <ArrowRight className="w-5 h-5 text-white" />
                 </div>
               </div>

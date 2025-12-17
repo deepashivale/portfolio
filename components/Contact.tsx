@@ -90,8 +90,8 @@ export const Contact: React.FC = () => {
           </h2>
           
           <p className="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto">
-            Ready to build the next{' '}
-            <span className="text-white font-bold">AI-powered solution</span>?{' '}
+            Ready to build your next {' '}
+            <span className="text-white font-bold">Web Solution</span>?{' '}
             Let's discuss your project
           </p>
           
@@ -108,7 +108,7 @@ export const Contact: React.FC = () => {
             }}>
               <h3 className="text-2xl font-bold text-white mb-4">Contact Information</h3>
               <p className="text-gray-300 leading-relaxed mb-8">
-                Open to discussing AI/ML projects, full-stack development opportunities, and innovative tech solutions. Let's create something impactful together.
+                Open to discussing full-stack web development projects and modern web solutions. Let’s create something impactful together.
               </p>
 
               {/* Contact Cards */}
@@ -116,21 +116,21 @@ export const Contact: React.FC = () => {
                 <ContactCard
                   icon={Mail}
                   title="Email"
-                  content="abhijitden01@gmail.com"
+                  content="deepashivale20@gmail.com"
                   color="#FFB5A7"
-                  href="mailto:abhijitden01@gmail.com"
+                  href="mailto:deepashivale20@gmail.com"
                 />
                 <ContactCard
                   icon={Phone}
                   title="Phone"
-                  content="+91 90219 29628"
+                  content="+91 97636 68885"
                   color="#E76F51"
-                  href="tel:+919021929628"
+                  href="tel:+919763668885"
                 />
                 <ContactCard
                   icon={MapPin}
                   title="Location"
-                  content="Available for Remote Work"
+                  content="Pune, Also Available for Remote Work"
                   color="#F4A261"
                 />
               </div>
@@ -142,8 +142,8 @@ export const Contact: React.FC = () => {
             }}>
               <h4 className="text-white font-bold text-xl mb-6">Connect With Me</h4>
               <div className="grid grid-cols-2 gap-4 mb-6">
-                <SocialLink Icon={Linkedin} href="https://www.linkedin.com/in/abhijitdengale/" label="LinkedIn" />
-                <SocialLink Icon={Instagram} href="https://www.instagram.com/7285_abhi/" label="Instagram" />
+                <SocialLink Icon={Linkedin} href="https://www.linkedin.com/in/deepashivale/" label="LinkedIn" />
+                <SocialLink Icon={Instagram} href="https://www.instagram.com/deepa_shivale/" label="Instagram" />
               </div>
               
               {/* GitHub Profiles */}
@@ -151,7 +151,7 @@ export const Contact: React.FC = () => {
                 <h5 className="text-white font-semibold text-sm mb-4">GitHub Profiles</h5>
                 <div className="grid grid-cols-1 gap-3">
                   <a
-                    href="https://github.com/Darkcoder011"
+                    href="https://github.com/deepashivale/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 p-3 rounded-xl backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all group"
@@ -161,12 +161,13 @@ export const Contact: React.FC = () => {
                   >
                     <Github className="w-5 h-5 text-white group-hover:scale-110 transition-transform" />
                     <div className="flex-1">
-                      <span className="text-white text-sm font-medium">@Darkcoder011</span>
+                      <span className="text-white text-sm font-medium">@deepashivale</span>
                       <p className="text-gray-400 text-xs">Primary Profile</p>
                     </div>
                   </a>
+                  {/*}
                   <a
-                    href="https://github.com/AbhijitDengale"
+                    href="https://github.com/deepashivale/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 p-3 rounded-xl backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all group"
@@ -176,10 +177,11 @@ export const Contact: React.FC = () => {
                   >
                     <Github className="w-5 h-5 text-white group-hover:scale-110 transition-transform" />
                     <div className="flex-1">
-                      <span className="text-white text-sm font-medium">@AbhijitDengale</span>
+                      <span className="text-white text-sm font-medium">@DeepaShivale</span>
                       <p className="text-gray-400 text-xs">Secondary Profile</p>
                     </div>
                   </a>
+                  */}
                 </div>
               </div>
             </div>

@@ -27,8 +27,9 @@ interface SkillCategory {
   skills: Skill[];
 }
 
+
 const skillCategories: SkillCategory[] = [
-  {
+  /*{
     title: "AI & Machine Learning",
     icon: Brain,
     skills: [
@@ -39,7 +40,7 @@ const skillCategories: SkillCategory[] = [
       { name: 'Agent Frameworks', level: 85, icon: Network, category: 'AI' },
       { name: 'NLP & ML', level: 87, icon: Brain, category: 'AI' },
     ]
-  },
+  },*/
   {
     title: "Full-Stack Development",
     icon: Code2,
@@ -53,6 +54,18 @@ const skillCategories: SkillCategory[] = [
     ]
   },
   {
+    title: "Web Development",
+    icon: Code2,
+    skills: [
+      { name: 'WordPress', level: 93, icon: Code2, category: 'Frontend' },
+      { name: 'React/Next.js', level: 94, icon: Layers, category: 'Frontend' },
+      { name: 'PHP', level: 90, icon: Terminal, category: 'Backend' },
+      { name: 'RestAPI', level: 91, icon: Rocket, category: 'Backend' }
+      /*{ name: 'PostgreSQL', level: 88, icon: Database, category: 'Backend' },
+      { name: 'REST & GraphQL', level: 89, icon: Network, category: 'Backend' },*/
+    ]
+  }
+ /* {
     title: "Cloud & DevOps",
     icon: Cloud,
     skills: [
@@ -63,8 +76,8 @@ const skillCategories: SkillCategory[] = [
       { name: 'Serverless', level: 83, icon: Zap, category: 'Cloud' },
       { name: 'Monitoring', level: 86, icon: Cpu, category: 'DevOps' },
     ]
-  }
-];
+  }*/];
+
 
 export const Skills: React.FC = () => {
   return (
@@ -99,10 +112,10 @@ export const Skills: React.FC = () => {
           </h2>
           
           <p className="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto">
-            Comprehensive expertise across{' '}
-            <span className="text-white font-bold">AI/ML</span>,{' '}
-            <span className="text-white font-bold">Full-Stack Development</span>, and{' '}
-            <span className="text-white font-bold">Cloud Infrastructure</span>
+            Proficient in building{' '}
+            <span className="text-white font-bold">Scalable</span>,{' '}
+            <span className="text-white font-bold"> Responsive</span>, and{' '}
+            <span className="text-white font-bold">Maintainable Web Applications</span>
           </p>
           
           <div className="w-32 h-1 mx-auto mt-6 rounded-full" style={{
@@ -121,19 +134,19 @@ export const Skills: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <InfoCard
             icon={Brain}
-            title="15+"
-            description="AI Systems Deployed"
+            title="150+"
+            description="Websites Deployed"
             color="#FFB5A7"
           />
           <InfoCard
             icon={Rocket}
-            title="70%"
+            title="80%"
             description="Efficiency Improvement"
             color="#E76F51"
           />
           <InfoCard
             icon={Zap}
-            title="40%"
+            title="90%"
             description="Business Growth"
             color="#F4A261"
           />
