@@ -74,7 +74,7 @@ export const Hero: React.FC = () => {
               background: 'linear-gradient(135deg, rgba(255, 181, 167, 0.25) 0%, rgba(231, 111, 81, 0.25) 100%)'
             }}>
               <Star className="w-5 h-5 text-white animate-spin" style={{animationDuration: '3s'}} />
-              <span className="text-white font-bold text-base tracking-wide">AI-NATIVE ENGINEER</span>
+              <span className="text-white font-bold text-base tracking-wide">Web Developer</span>
               <Sparkles className="w-5 h-5 text-white" />
             </div>
           </div>
