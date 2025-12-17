@@ -1,0 +1,12 @@
+# Video Placeholder
+
+Place your video.mp4 file in this directory.
+
+The video should be:
+- Named: video.mp4
+- Format: MP4 (H.264 codec recommended)
+- Duration: 3-10 seconds (for looping)
+- Resolution: 1080p or higher
+- Optimized for web (compressed)
+
+The video will autoplay, loop, and be muted by default for better user experience.
