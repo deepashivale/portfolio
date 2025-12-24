@@ -100,6 +100,8 @@ export const Contact: React.FC = () => {
           }}></div>
         </div>
 
+
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div className="space-y-8">
@@ -116,16 +118,16 @@ export const Contact: React.FC = () => {
                 <ContactCard
                   icon={Mail}
                   title="Email"
-                  content="deepashivale20@gmail.com"
+                  content="patilaniket0302@gmail.com"
                   color="#FFB5A7"
-                  href="mailto:deepashivale20@gmail.com"
+                  href="mailto:patilaniket0302@gmail.com"
                 />
                 <ContactCard
                   icon={Phone}
                   title="Phone"
-                  content="+91 97636 68885"
+                  content="+91 72490 69206"
                   color="#E76F51"
-                  href="tel:+919763668885"
+                  href="tel:+917249069206"
                 />
                 <ContactCard
                   icon={MapPin}
@@ -135,23 +137,34 @@ export const Contact: React.FC = () => {
                 />
               </div>
             </div>
+          </div>
+        
 
-            {/* Social Links */}
-            <div className="p-8 rounded-3xl backdrop-blur-xl border border-white/20 shadow-2xl" style={{
-              background: 'linear-gradient(135deg, rgba(255, 181, 167, 0.1) 0%, rgba(231, 111, 81, 0.1) 100%)'
+          
+
+              
+
+              
+  
+          
+          <div className="p-8 rounded-3xl backdrop-blur-xl border border-white/20 shadow-2xl" style={{
+            background: 'linear-gradient(135deg, rgba(255, 181, 167, 0.1) 0%, rgba(231, 111, 81, 0.1) 100%)'
             }}>
-              <h4 className="text-white font-bold text-xl mb-6">Connect With Me</h4>
+            <div className="flex items-center gap-1 mb-6">
+              <h4 className="text-white font-bold text-xl mb-6">Connect With Me</h4></div>
               <div className="grid grid-cols-2 gap-4 mb-6">
-                <SocialLink Icon={Linkedin} href="https://www.linkedin.com/in/deepashivale/" label="LinkedIn" />
-                <SocialLink Icon={Instagram} href="https://www.instagram.com/deepa_shivale/" label="Instagram" />
+                <SocialLink Icon={Linkedin} href="https://www.linkedin.com/in/aniket-suryawanshi0302/" label="LinkedIn" />
+                <SocialLink Icon={Instagram} href="https://www.instagram.com/ANIKET_PATIL2409/" label="Instagram" />
               </div>
+            
+
               
               {/* GitHub Profiles */}
               <div className="pt-4 border-t border-white/10">
                 <h5 className="text-white font-semibold text-sm mb-4">GitHub Profiles</h5>
                 <div className="grid grid-cols-1 gap-3">
                   <a
-                    href="https://github.com/deepashivale/"
+                    href="https://github.com/Aniketpatilsuryawanshi"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 p-3 rounded-xl backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all group"
@@ -161,131 +174,39 @@ export const Contact: React.FC = () => {
                   >
                     <Github className="w-5 h-5 text-white group-hover:scale-110 transition-transform" />
                     <div className="flex-1">
-                      <span className="text-white text-sm font-medium">@deepashivale</span>
+                      <span className="text-white text-sm font-medium">@aniketsuryawanshi</span>
                       <p className="text-gray-400 text-xs">Primary Profile</p>
                     </div>
                   </a>
-                  {/*}
-                  <a
-                    href="https://github.com/deepashivale/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-3 p-3 rounded-xl backdrop-blur-sm border border-white/10 hover:border-white/20 transition-all group"
-                    style={{
-                      background: 'linear-gradient(135deg, rgba(255, 181, 167, 0.1) 0%, rgba(231, 111, 81, 0.1) 100%)'
-                    }}
-                  >
-                    <Github className="w-5 h-5 text-white group-hover:scale-110 transition-transform" />
-                    <div className="flex-1">
-                      <span className="text-white text-sm font-medium">@DeepaShivale</span>
-                      <p className="text-gray-400 text-xs">Secondary Profile</p>
-                    </div>
-                  </a>
-                  */}
+
                 </div>
               </div>
-            </div>
           </div>
+         
 
-          {/* Contact Form */}
-          <div className="p-8 rounded-3xl backdrop-blur-xl border border-white/20 shadow-2xl" style={{
-            background: 'linear-gradient(135deg, rgba(255, 181, 167, 0.1) 0%, rgba(231, 111, 81, 0.1) 100%)'
-          }}>
-            <div className="flex items-center gap-3 mb-6">
-              <MessageSquare className="w-6 h-6 text-white" />
-              <h3 className="text-2xl font-bold text-white">Send a Message</h3>
-            </div>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <InputField
-                  label="Your Name"
-                  name="name"
-                  type="text"
-                  placeholder="John Doe"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                />
-                <InputField
-                  label="Your Email"
-                  name="email"
-                  type="email"
-                  placeholder="john@example.com"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
+            
 
-              <InputField
-                label="Subject"
-                name="subject"
-                type="text"
-                placeholder="Project Discussion"
-                value={formData.subject}
-                onChange={handleChange}
-                required
-              />
-
-              <div>
-                <label className="block text-white font-medium mb-2">Message</label>
-                <textarea
-                  name="message"
-                  rows={6}
-                  placeholder="Tell me about your project or opportunity..."
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 rounded-xl backdrop-blur-sm border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:border-white/40 transition-colors resize-none"
-                  style={{
-                    background: 'rgba(255, 181, 167, 0.05)'
-                  }}
-                />
-              </div>
-
-              {/* Status Message */}
-              {submitStatus.type && (
-                <div
-                  className={`p-4 rounded-xl border ${
-                    submitStatus.type === 'success'
-                      ? 'bg-green-500/10 border-green-500/30 text-green-300'
-                      : 'bg-red-500/10 border-red-500/30 text-red-300'
-                  }`}
-                >
-                  <p className="text-sm font-medium">{submitStatus.message}</p>
-                </div>
-              )}
-
-              <button
-                type="submit"
-                disabled={isSubmitting}
-                className={`w-full text-white font-bold px-8 py-4 rounded-2xl shadow-lg transition-all flex items-center justify-center gap-2 group ${
-                  isSubmitting ? 'opacity-70 cursor-not-allowed' : 'hover:scale-105'
-                }`}
-                style={{
-                  background: 'linear-gradient(135deg, #FFB5A7 0%, #E76F51 100%)'
-                }}
-              >
-                {isSubmitting ? (
-                  <>
-                    <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                    <span>Sending...</span>
-                  </>
-                ) : (
-                  <>
-                    <span>Send Message</span>
-                    <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                  </>
-                )}
-              </button>
-            </form>
-          </div>
-        </div>
+              
       </div>
+       </div>  
     </section>
+    
   );
 };
+
+            
+                  
+
+              
+
+              
+
+
+         
+            
+          
+
 
 const ContactCard: React.FC<{
   icon: React.ElementType;

@@ -258,6 +258,13 @@ export const Services: React.FC = () => {
       Icon: Smartphone,
       features: ["React Native", "Flutter", "Native APIs", "Performance"],
       color: "#f9ca24"
+    },
+    {
+      title: "Mobile App Development",
+      description: "End-to-end mobile app solutions using .NET and Dart, focused on performance, usability, and scalability.",
+      Icon: Smartphone,
+      features: [".Net", "Flutter", "Dart", "Performance"],
+      color: "#f9ca24"
     }
   ];
 

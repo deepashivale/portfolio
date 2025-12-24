@@ -51,6 +51,8 @@ const skillCategories: SkillCategory[] = [
       { name: 'FastAPI', level: 91, icon: Rocket, category: 'Backend' },
       { name: 'PostgreSQL', level: 88, icon: Database, category: 'Backend' },
       { name: 'REST & GraphQL', level: 89, icon: Network, category: 'Backend' },
+      { name: '.Net', level: 85, icon: Code2, category: 'Backend' },
+      { name: 'Dart/Flutter', level: 87, icon: Layers, category: 'Frontend' }
     ]
   },
   {

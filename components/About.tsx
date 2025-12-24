@@ -58,8 +58,8 @@ export const About: React.FC = () => {
               }}>
                 <div className="relative w-full aspect-square max-w-[300px] mx-auto">
                   <img 
-                    src="/assets/images/girl.png" 
-                    alt="AI Engineer" 
+                    src="/assets/images/ima.png" 
+                    alt="Aniket Patil - Web Developer" 
                     className="w-full h-full object-contain drop-shadow-2xl"
                   />
                   
@@ -135,7 +135,7 @@ export const About: React.FC = () => {
                   I'm an <span className="text-white font-bold text-xl bg-gradient-to-r from-[#FFB5A7] to-[#E76F51] bg-clip-text text-transparent">Full-Stack Web Developer</span> who builds modern, scalable web applications focused on performance, usability, and clean architecture.
                 </p>
                 <p>
-                  Using technologies like <span className="text-white font-semibold">HTML, CSS, JavaScript, React, Node.js, Wordpress and modern frameworks,</span> I create responsive, user-friendly solutions that help businesses establish a strong digital presence and streamline their workflows.
+                  Using technologies like <span className="text-white font-semibold">HTML, CSS, JavaScript, React.js, Node.js, .Net, Flutter, Dart, Wordpress and modern frameworks,</span> I create responsive, user-friendly solutions that help businesses establish a strong digital presence and streamline their workflows.
                 </p>
                 <p>
                   My flagship achievement: developing a <span className="text-white font-semibold">Full-stack web application</span> featuring dynamic UI components, secure backend integration, and optimized performance.<span className="text-white font-bold"> </span>
@@ -156,7 +156,7 @@ export const About: React.FC = () => {
                   </div>
                   <div>
                     <div className="text-2xl font-bold text-white">80%</div>
-                    <div className="text-sm text-gray-300">Growth at Affinity</div>
+                    <div className="text-sm text-gray-300">Growth at ZyraTech</div>
                   </div>
                 </div>
                 <p className="text-gray-300 text-sm">Created modern web solutions that helped drive user engagement and platform growth.</p>
@@ -196,7 +196,9 @@ export const About: React.FC = () => {
                   { name: 'React.js', icon: '⚛️' },
                   { name: 'TypeScript', icon: '⚡' },
                   { name: 'Restful APIs', icon: '🔗' },
-                  
+                  { name: '.Net', icon: '💠' },
+                  { name: 'Flutter', icon: '🦋' },
+                  { name: 'Dart', icon: '🎯' },
                   { name: 'Node.js', icon: '🟢' },
                   { name: 'WordPress', icon: '📝' }
                 ].map((tech, index) => (

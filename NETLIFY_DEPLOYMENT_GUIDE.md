@@ -23,7 +23,7 @@ If the above doesn't work, try a fresh deployment:
 2. Go to Netlify dashboard
 3. Click **Add new site** → **Import an existing project**
 4. Choose **GitHub**
-5. Select your repository: `AbhijitDengale/portpolio`
+5. Select your repository: `Aniketpatil/portpolio`
 6. Configure build settings:
    - **Build command:** `npm run build`
    - **Publish directory:** `dist`

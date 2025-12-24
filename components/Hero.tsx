@@ -99,7 +99,7 @@ export const Hero: React.FC = () => {
                     WebkitTextStroke: '1px rgba(255, 255, 255, 0.1)'
                   }}
                 >
-                  DEEPA
+                  ANIKET
                 </span>
                 <span 
                   className="block text-transparent bg-clip-text"
@@ -108,7 +108,7 @@ export const Hero: React.FC = () => {
                     WebkitTextStroke: '1px rgba(255, 255, 255, 0.1)'
                   }}
                 >
-                  SHIVALE
+                  PATIL
                 </span>
               </h1>
               
@@ -224,8 +224,8 @@ export const Hero: React.FC = () => {
               {/* Avatar Image */}
               <div className="absolute inset-8 flex items-center justify-center">
                 <img 
-                  src="/assets/images/girl.png" 
-                  alt="Deepa Shivale - Web Developer" 
+                  src="/assets/images/ima.png" 
+                  alt="Aniket Patil - Web Developer" 
                   className="w-full h-full object-contain drop-shadow-2xl"
                   style={{
                     filter: 'drop-shadow(0 0 20px rgba(255, 181, 167, 0.4))'
